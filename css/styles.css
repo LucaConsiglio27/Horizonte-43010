@@ -228,13 +228,24 @@ footer iframe{
 
 
 /*---------------------NOSOTROS----------------*/
+.nosotros-main{
+    width: 100%;
+    height: 100%;
+}
 
 .carousel-inner{
-    height: 700px;
+    height: 100%;
 }
 
 .carousel-item img{
-    height: 700px;
+    height: 80%;
+}
+
+.carousel-item h3{
+        color: #F6EFDE;
+}
+.carousel-item div p{
+        color: #F6EFDE;
 }
 
 
@@ -340,7 +351,7 @@ footer iframe{
 
 .contacto-main{
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-image: url(../img/contacto.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -349,8 +360,32 @@ footer iframe{
     justify-content: center;
     align-items: center;
 }
-.contacto-main div{
+
+.contacto-main form{
+    width: 70%;
+    height: 50%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.contacto-main form div{
     padding-bottom: 15px;
+}
+.contacto-main form div label{
+    text-align: center;
+    color: #03729E;
+}
+
+.contacto-main .titulo-contacto{
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+    color: #03729E;
+}
+
+.contacto-main .botones-contacto{
+    color: #03729E;
 }
 
 

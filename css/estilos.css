@@ -115,7 +115,7 @@ main .productos {
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
-  main .productos .productos div {
+  main .productos div {
     width: 20%;
     height: 400px;
     justify-content: space-evenly;
@@ -124,22 +124,60 @@ main .productos {
     box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
     -webkit-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
     -moz-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75); }
-  main .productos .productos div img {
-    width: 100%;
-    height: 300px; }
-  main .productos .productos div h3 {
-    padding-top: 25px;
-    padding-bottom: 5px;
-    font-size: small;
-    text-align: center;
-    color: #03729E; }
-  main .productos .boton {
-    font-size: medium;
-    text-decoration: none;
-    color: #B6924C; }
-    main .productos .botonhover {
-      background-color: #B6924C;
-      color: white; }
+    main .productos div img {
+      width: 100%;
+      height: 300px; }
+    main .productos div h3 {
+      padding-top: 25px;
+      padding-bottom: 5px;
+      font-size: small;
+      text-align: center;
+      color: #03729E; }
+    main .productos div .boton {
+      font-size: medium;
+      text-decoration: none;
+      color: #B6924C; }
+      main .productos div .botonhover {
+        background-color: #B6924C;
+        color: white; }
+
+.nosotros-main .carousel-inner {
+  height: 700px; }
+
+.nosotros-main .carousel-item img {
+  height: 700px; }
+
+.nosotros-main .carousel-item div h3 {
+  color: #F6EFDE; }
+
+.nosotros-main .carousel-item div p {
+  color: #F6EFDE; }
+
+.contacto-main {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contacto-main form {
+    width: 70%;
+    height: 50%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; }
+    .contacto-main form div {
+      padding-bottom: 15px; }
+      .contacto-main form div .titulo-contacto {
+        padding: 10px 0px 10px 0px;
+        text-align: left;
+        color: #03729E; }
+      .contacto-main form div .botones-contacto {
+        color: #03729E; }
 
 footer {
   width: 100%;
