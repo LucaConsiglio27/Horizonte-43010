@@ -12,15 +12,38 @@
     <header>
         <h1>EL BARRIO A FLOR DE PIEL</h1>
         <img class="logo95" src="../img/logo95.png" alt="Logo club">
-        <nav>
-            <ul class="navegacion">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./nosotros.html">NOSOTROS</a></li>
-                <li><a href="./deportes.html">DEPORTES</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                INFORMACION
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/deportes.html">DEPORTES</a></li>
+                                <li><a class="dropdown-item" href="../pages/servicios.html">SERVICIOS</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../pages/contacto.html">CONTACTO</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn boton" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            </nav>
     </header>
     <main class="servicios-main">
         <div class="grid-item img-1">

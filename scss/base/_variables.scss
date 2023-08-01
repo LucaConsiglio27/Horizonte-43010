@@ -1,3 +1,9 @@
 $color-primario: #03729E;
 $color-secundario: #B6924C;
 $color-terciario: #F6EFDE;
+
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
