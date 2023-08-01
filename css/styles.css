@@ -48,6 +48,9 @@ header nav{
 }
 
 
+a .navbar-brand{
+    color: #F6EFDE;
+}
 
 
 
@@ -223,7 +226,7 @@ footer iframe{
 /*---------------------NOSOTROS----------------*/
 .nosotros-main{
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 
 .carousel-inner{
@@ -231,7 +234,7 @@ footer iframe{
 }
 
 .carousel-item img{
-    height: 80%;
+    height: 15%;
 }
 
 .carousel-item h3{
