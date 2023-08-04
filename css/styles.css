@@ -636,40 +636,58 @@ height: 500px;
 
 
 /*---------Deportes-------*/
+.deportes-main{
+    width: 100%;
+    height: 1300px;
+}
 
-    .deportes-main section{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: auto;
-    }
+.deportes-main section{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .img-voley{
-        width: 345px;
-        height: 300px;
-        margin-right: 55px;
-        grid-column: 1;
-    }
-    
-    .img-gimnasia{
-        width: 345px;
-        height: 300px;
-        margin-left: 55px;
-        grid-column: 1;
-    }
-    
-    .img-futsal{
-        width: 345px;
-        height: 300px;
-        margin-left: 55px;
-        margin-right: 0px;
-    }
+.nombre-deportes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
 
+.deportes-main div h4{
+    text-align: center;
+}
+
+.img-voley{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-gimnasia{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-futsal{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
     /*--------FOOTER------*/
 
 
     footer{
-        margin-top: 25px;
+       
     }
 }
