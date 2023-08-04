@@ -141,8 +141,6 @@ header nav{
 .productos div{
     width: 20%;
     height: 400px;
-    justify-content: space-evenly;
-    align-items: center;
     text-align: center;
     box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
     -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
@@ -242,43 +240,51 @@ footer iframe{
 
 
 /*----------------------DEPORTES----------------*/
-.deportes-main section{
+.deportes-main{
     width: 100%;
-    height: 750px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 300px;
-    gap: 50px;
-    margin-top: 50px;
+    height: 900px;
 }
 
-.deportes-main section img{
+.deportes-main section{
     width: 100%;
-    height: 300px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nombre-deportes{
-    box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
-    -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
-    -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
-    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deportes-main div h4{
+    text-align: center;
 }
 
 .img-voley{
-    margin-left: 50px;
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .img-gimnasia{
-    grid-column: 2 / 3;
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .img-futsal{
-    grid-column: span 3;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-
-
 /*-----------------------SERVICIOS---------------*/
 
 .servicios-main{
@@ -400,7 +406,7 @@ footer iframe{
 
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 992px){
 
     header h1{
         padding-top: 10px;
@@ -471,6 +477,58 @@ height: 500px;
     height: 60%; 
 }
 
+/*-------DEPORTES-------*/
+
+.deportes-main{
+    width: 100%;
+    height: 1300px;
+}
+
+.deportes-main section{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-deportes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.deportes-main div h4{
+    text-align: center;
+}
+
+.img-voley{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-gimnasia{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-futsal{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------SERVICIOS-------*/
+
 .servicios-main{
     grid-template-columns: 1fr;
 }
@@ -480,6 +538,8 @@ height: 500px;
     grid-row: span 1;
 }
 }
+
+
 
 @media screen and (max-width: 576px){
     header h1{
@@ -508,27 +568,53 @@ height: 500px;
 
 /*----------DEPORTES-----*/
 
-    .deportes-main section{
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: auto;
-    }
+.deportes-main{
+    width: 100%;
+    height: 1300px;
+}
 
-    .img-voley{
-        width: 75%;
-        grid-column: 1;
-    }
-    
-    .img-gimnasia{
-        width: 75%;
-        grid-column: 1;
-    }
-    
-    .img-futsal{
-        width: 75%;
-    }
+.deportes-main section{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-deportes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.deportes-main div h4{
+    text-align: center;
+}
+
+.img-voley{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-gimnasia{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-futsal{
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 
 
