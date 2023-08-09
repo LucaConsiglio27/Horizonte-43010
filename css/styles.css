@@ -32,6 +32,22 @@ header nav{
     width: 30%;
 }
 
+.navbar-brand{
+    color: #B6924C !important; 
+}
+
+.nav-link.active{
+    color: #B6924C !important;
+}
+
+.nav-link{
+    color: #B6924C !important;
+}
+
+.dropdown-item{
+    color: #B6924C;
+}
+
 
 .logo95{
     height: 190px;
@@ -410,6 +426,7 @@ footer iframe{
     }
 
 @media screen and (max-width: 992px){
+/*--------INDEX------*/
 
     header h1{
         padding-top: 10px;
@@ -437,6 +454,7 @@ footer iframe{
     }
 
 
+/*------Servicios------*/
 
 .servicios-main{
         grid-template-columns: repeat(2,1fr);
