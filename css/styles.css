@@ -633,7 +633,11 @@ height: 500px;
 
 @media screen and (max-width:  450px){
 
-
+header{
+    .logo95{
+        height: 150px;
+    }
+}
 
 /*---------Deportes-------*/
 .deportes-main{
@@ -665,21 +669,21 @@ height: 500px;
 
 .img-voley{
     width: 75%;
-    height: 100%;
+    height: 85%;
     padding: 0;
     margin: 0;
 }
 
 .img-gimnasia{
     width: 75%;
-    height: 100%;
+    height: 85%;
     padding: 0;
     margin: 0;
 }
 
 .img-futsal{
     width: 75%;
-    height: 100%;
+    height: 85%;
     padding: 0;
     margin: 0;
 }
@@ -687,7 +691,15 @@ height: 500px;
     /*--------FOOTER------*/
 
 
+    
     footer{
-       
-    }
-}
+        
+        .logo95{
+            height: 60%;
+        }
+
+        .redes-sociales{
+            height: 30%;
+        }
+
+    };
