@@ -403,8 +403,11 @@ footer iframe{
         text-align: center;
     }
 
+    .logo95footer{
+        height: 80%;
+    }
 
-}
+    }
 
 @media screen and (max-width: 992px){
 
@@ -542,6 +545,7 @@ height: 500px;
 
 
 
+
 @media screen and (max-width: 576px){
     header h1{
         text-align: center;
@@ -630,14 +634,36 @@ height: 500px;
     }
 }
 
+/*-----Footer-------*/
+
+
+    .logo95footer{
+        height: 80%;
+    }
+
+    .redes-sociales img{
+        height: 70%;
+    }
+
 
 @media screen and (max-width:  450px){
 
-header{
+
     .logo95{
         height: 150px;
     }
+
+
+
+/*------Nosotros---------*/
+
+.nosotros-main{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /*---------Deportes-------*/
 .deportes-main{
@@ -688,18 +714,14 @@ header{
     margin: 0;
 }
 
-    /*--------FOOTER------*/
+/*-------FOOTER------*/
 
 
-    
-    footer{
-        
-        .logo95{
-            height: 60%;
-        }
+    .logo95footer{
+        height: 60%;
+    }
 
-        .redes-sociales{
-            height: 30%;
-        }
-
-    };
+    .redes-sociales img{
+        height: 80%;
+    }
+}
