@@ -675,8 +675,10 @@ height: 500px;
 
 @media screen and (max-width:  450px){
 
-    .d-flex{
-        gap: 15px;
+    .container-fluid{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 
 
