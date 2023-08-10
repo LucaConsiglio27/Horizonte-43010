@@ -32,6 +32,7 @@ header nav{
     width: 30%;
 }
 
+
 .navbar-brand{
     color: #B6924C !important; 
 }
@@ -426,6 +427,9 @@ footer iframe{
         height: 80%;
     }
 
+    .redes-sociales img{
+        height: 60%;
+    }
     }
 
 
@@ -474,6 +478,12 @@ footer iframe{
 
     grid-column: span 2;
 }
+}
+
+/*-------FOOTER------*/
+
+.redes-sociales{
+    height: 70%;
 }
 
 
@@ -569,13 +579,13 @@ height: 500px;
 
 
 @media screen and (max-width: 576px){
-    header h1{
-        text-align: center;
-        font-size:large;
+    
+    header{
+        flex-direction: row;
     }
-
-    .d-flex{
-        gap: 20px;
+    
+    header h1{
+        display: none;
     }
 
 
@@ -674,11 +684,16 @@ height: 500px;
 
 
 @media screen and (max-width:  450px){
+header{
+    flex-direction: row;
+}
 
-    .container-fluid{
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+    h1{
+        display: none;
+    }
+
+    .navbar{
+        padding-left: 30px;
     }
 
 

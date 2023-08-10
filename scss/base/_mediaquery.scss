@@ -11,7 +11,11 @@
         height: 80%;
     }
 
+    .redes-sociales img{
+        height: 60%;
     }
+    }
+
 
 @media screen and (max-width: 992px){
 /*--------INDEX------*/
@@ -58,6 +62,12 @@
 
     grid-column: span 2;
 }
+}
+
+/*-------FOOTER------*/
+
+.redes-sociales{
+    height: 70%;
 }
 
 
@@ -153,10 +163,15 @@ height: 500px;
 
 
 @media screen and (max-width: 576px){
-    header h1{
-        text-align: center;
-        font-size:large;
+    
+    header{
+        flex-direction: row;
     }
+    
+    header h1{
+        display: none;
+    }
+
 
     .asociate div{
         width: 90%;
@@ -253,6 +268,17 @@ height: 500px;
 
 
 @media screen and (max-width:  450px){
+header{
+    flex-direction: row;
+}
+
+    h1{
+        display: none;
+    }
+
+    .navbar{
+        padding-left: 30px;
+    }
 
 
     .logo95{
