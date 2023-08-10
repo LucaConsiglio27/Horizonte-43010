@@ -49,13 +49,16 @@ header nav{
 }
 
 
+.bg-light{
+    background-color: #03729E !important;
+}
+
+
 .logo95{
     height: 190px;
 }
 
-.bg-light{
-    background-color: #03729E !important;
-}
+
 
 .boton{
     color: #B6924C;
@@ -425,6 +428,7 @@ footer iframe{
 
     }
 
+
 @media screen and (max-width: 992px){
 /*--------INDEX------*/
 
@@ -570,6 +574,11 @@ height: 500px;
         font-size:large;
     }
 
+    .d-flex{
+        gap: 20px;
+    }
+
+
     .asociate div{
         width: 90%;
     }
@@ -665,6 +674,10 @@ height: 500px;
 
 
 @media screen and (max-width:  450px){
+
+    .d-flex{
+        gap: 15px;
+    }
 
 
     .logo95{
