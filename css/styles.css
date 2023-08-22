@@ -697,6 +697,9 @@ header{
         padding-left: 30px;
     }
 
+    .dropdown-menu{
+        min-width: 115px;
+    }
 
     .logo95{
         height: 150px;
@@ -786,6 +789,10 @@ header{
             display: none;
         }
     
+        .dropdown-menu{
+            min-width: 115px;
+        }
+
         .productos div h3{
             font-size: small;
         }
@@ -873,5 +880,12 @@ header{
     
         .redes-sociales img{
             height: 70%;
+        }
+    }
+
+    @media screen and (max-width: 315px){
+        
+        .dropdown-menu{
+            min-width: 115px;
         }
     }
