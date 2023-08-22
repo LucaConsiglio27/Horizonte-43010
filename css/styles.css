@@ -33,25 +33,77 @@ header nav{
 }
 
 
-.navbar-brand{
-    color: #B6924C !important; 
+/*------NAVBAR-------*/
+
+
+.bg-navbar{
+    background-color: #03729E;
+    
 }
 
-.nav-link.active{
+.nav-index{
+    color: #B6924C; 
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-nosotros{
     color: #B6924C !important;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-.nav-link{
+.nav-contacto{
     color: #B6924C !important;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-.dropdown-item{
-    color: #B6924C;
+.nav-info{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #B6924C !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.nav-deportes{
+    color: blueviolet;
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #B6924C !important;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
 
-.bg-light{
-    background-color: #03729E !important;
+.nav-servicios{
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #B6924C !important;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
 }
 
 
@@ -282,9 +334,6 @@ footer iframe{
     align-items: center;
 }
 
-.deportes-main div h4{
-    text-align: center;
-}
 
 .img-voley{
     width: 75%;
@@ -397,7 +446,7 @@ footer iframe{
     color: #03729E;
 }
 
-.contacto-main .titulo-contacto{
+.contacto-main div h3{
     padding: 10px 0px 10px 0px;
     text-align: left;
     color: #03729E;

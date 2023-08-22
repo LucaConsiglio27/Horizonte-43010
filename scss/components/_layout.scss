@@ -33,7 +33,7 @@ main{
         color: $color-terciario;
         text-align: center;
         font-size: medium;
-        font-weight: bolder;
+        font-weight: normal;
         }
         }
 
@@ -46,20 +46,20 @@ main{
                 height: 450px;}
 
                 .asociate div{
-                            background-color: $color-terciario;
-                            width: 50%;
-                            height: 350px;
-                            justify-content: center;
-                            align-items: center;
-                            text-align: center;
-                            color: #006E9E;
-                            box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
-                            -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
-                            -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+                    background-color: $color-terciario;
+                    width: 50%;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: #006E9E;
+                    box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+                    -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+                    -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
 
                         img{
                             width: 100%;
-                            height: 100%;;
+                            height: 100%;
                 }
 
                         p{
@@ -131,6 +131,54 @@ main{
                 }
     }
 
+
+// DEPORTES
+.deportes-main{
+    width: 100%;
+    height: 800px;
+
+    section{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nombre-deportes{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .img-voley{
+            width: 75%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .img-gimnasia{
+            width: 75%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .img-futsal{
+            width: 75%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+}
+
+
+
+
 // NOSOTROS
 
     .nosotros-main{
@@ -183,11 +231,11 @@ main{
                     .titulo-contacto{
                                     padding: 10px 0px 10px 0px;
                                     text-align: left;
-                                    color: $color-terciario;
+                                    color: $color-primario;
                         }
 
                     .botones-contacto{
-                                    color: $color-terciario;
+                                    color: $color-primario;
                         }
                     }
                 }

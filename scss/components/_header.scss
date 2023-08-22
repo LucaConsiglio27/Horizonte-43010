@@ -21,20 +21,74 @@ header{
     }
 
     nav{
-        .navegacion{
-            display: flex;
-            li{ 
-                list-style: none;
-                align-items: center;
-                a{
-                    padding: 5px;
-                    font-size: medium;
-                    text-decoration: none;
-                    color: $color-terciario;
-                    &hover{color: $color-secundario;}
-                }
-
-                }
-            }
+        .bg-navbar{
+            background-color: #03729E;
+            
+        }
+        
+        .nav-index{
+            color: #B6924C; 
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        
+        .nav-nosotros{
+            color: #B6924C !important;
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #0d6efd;
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+        
+        .nav-contacto{
+            color: #B6924C !important;
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #0d6efd;
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+        
+        .nav-info{
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #B6924C !important;
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+        
+        .nav-deportes{
+            color: blueviolet;
+            display: block;
+            width: 100%;
+            padding: 0.25rem 1rem;
+            clear: both;
+            font-weight: 400;
+            color: #B6924C !important;
+            text-align: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
+        }
+        
+        .nav-servicios{
+            display: block;
+            width: 100%;
+            padding: 0.25rem 1rem;
+            clear: both;
+            font-weight: 400;
+            color: #B6924C !important;
+            text-align: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border: 0;
         }
     }
+}

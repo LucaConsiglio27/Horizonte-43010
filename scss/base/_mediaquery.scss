@@ -70,6 +70,46 @@
     height: 70%;
 }
 
+/*----------CONTACTO------*/
+.contacto-main{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-main form{
+    width: 70%;
+    height: 50%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.contacto-main form div{
+    padding-bottom: 15px;
+}
+.contacto-main form div label{
+    text-align: center;
+    color: #03729E;
+}
+
+.contacto-main .titulo-contacto{
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+    color: #03729E;
+}
+
+.contacto-main .botones-contacto{
+    color: #03729E;
+}
+
 
 @media screen and (max-width: 768px){
 header h1{
@@ -254,6 +294,27 @@ height: 500px;
         grid-row: span 1;
     }
 }
+/*----------NOSOTROS-----*/
+
+.nosotros-main{
+    width: 100%;
+    height: 70%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 15%;
+}
+
+.carousel-item h3{
+        color: #F6EFDE;
+}
+.carousel-item div p{
+        color: #F6EFDE;
+}
 
 /*-----Footer-------*/
 
@@ -280,6 +341,9 @@ header{
         padding-left: 30px;
     }
 
+    .dropdown-menu{
+        min-width: 115px;
+    }
 
     .logo95{
         height: 150px;
@@ -290,12 +354,24 @@ header{
 /*------Nosotros---------*/
 
 .nosotros-main{
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 70%;
 }
 
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 15%;
+}
+
+.carousel-item h3{
+        color: #F6EFDE;
+}
+.carousel-item div p{
+        color: #F6EFDE;
+}
 
 /*---------Deportes-------*/
 .deportes-main{
@@ -357,3 +433,133 @@ header{
         height: 80%;
     }
 }
+
+
+
+@media screen and (max-width:  350px){
+    header{
+        flex-direction: row;
+    }
+    
+        h1{
+            display: none;
+        }
+    
+        .dropdown-menu{
+            min-width: 115px;
+        }
+
+        .productos div h3{
+            font-size: small;
+        }
+
+
+        .navbar{
+            padding: 0px;
+        }
+        
+        .container-fluid{
+            padding: 0px;
+        }
+    
+        .logo95{
+            height: 100px;
+        }
+    
+    
+        .asociate div img{
+            width: 100%;
+            height: 100%;
+        }
+        
+    
+    /*------Nosotros---------*/
+    
+    .nosotros-main{
+        width: 100%;
+        height: 70%;
+    }
+    
+    .carousel-inner{
+        height: 100%;
+    }
+    
+    .carousel-item img{
+        height: 15%;
+    }
+    
+    .carousel-item h3{
+            color: #F6EFDE;
+    }
+    .carousel-item div p{
+            color: #F6EFDE;
+    }
+    
+    
+    /*---------Deportes-------*/
+    .deportes-main{
+        width: 100%;
+        height: 1300px;
+    }
+    
+    .deportes-main section{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nombre-deportes{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .deportes-main div h4{
+        text-align: center;
+    }
+    
+    .img-voley{
+        width: 75%;
+        height: 85%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .img-gimnasia{
+        width: 75%;
+        height: 85%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .img-futsal{
+        width: 75%;
+        height: 85%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /*-------FOOTER------*/
+    
+    
+        .logo95footer{
+            height: 60%;
+        }
+    
+        .redes-sociales img{
+            height: 70%;
+        }
+    }
+
+    @media screen and (max-width: 315px){
+        
+        .dropdown-menu{
+            min-width: 115px;
+        }
+    }

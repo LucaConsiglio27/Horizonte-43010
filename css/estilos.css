@@ -23,18 +23,61 @@ header {
     text-align: left; }
   header .logo95 {
     height: 190px; }
-  header nav .navegacion {
-    display: flex; }
-    header nav .navegacion li {
-      list-style: none;
-      align-items: center; }
-      header nav .navegacion li a {
-        padding: 5px;
-        font-size: medium;
-        text-decoration: none;
-        color: #F6EFDE; }
-        header nav .navegacion li ahover {
-          color: #B6924C; }
+  header nav .bg-navbar {
+    background-color: #03729E; }
+  header nav .nav-index {
+    color: #B6924C;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap; }
+  header nav .nav-nosotros {
+    color: #B6924C !important;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+  header nav .nav-contacto {
+    color: #B6924C !important;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+  header nav .nav-info {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #B6924C !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+  header nav .nav-deportes {
+    color: blueviolet;
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #B6924C !important;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; }
+  header nav .nav-servicios {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #B6924C !important;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; }
 
 main .hero {
   width: 100%;
@@ -65,7 +108,7 @@ main .hero {
     color: #F6EFDE;
     text-align: center;
     font-size: medium;
-    font-weight: bolder; }
+    font-weight: normal; }
 
 main .asociate {
   padding-top: 100px;
@@ -78,7 +121,7 @@ main .asociate {
 main .asociate div {
   background-color: #F6EFDE;
   width: 50%;
-  height: 350px;
+  height: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -140,6 +183,37 @@ main .productos {
         background-color: #B6924C;
         color: #F6EFDE; }
 
+.deportes-main {
+  width: 100%;
+  height: 800px; }
+  .deportes-main section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .deportes-main .nombre-deportes {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .deportes-main .nombre-deportes .img-voley {
+      width: 75%;
+      height: 100%;
+      padding: 0;
+      margin: 0; }
+    .deportes-main .nombre-deportes .img-gimnasia {
+      width: 75%;
+      height: 100%;
+      padding: 0;
+      margin: 0; }
+    .deportes-main .nombre-deportes .img-futsal {
+      width: 75%;
+      height: 100%;
+      padding: 0;
+      margin: 0; }
+
 .nosotros-main .carousel-inner {
   height: 700px; }
 
@@ -174,9 +248,9 @@ main .productos {
       .contacto-main form div .titulo-contacto {
         padding: 10px 0px 10px 0px;
         text-align: left;
-        color: #F6EFDE; }
+        color: #03729E; }
       .contacto-main form div .botones-contacto {
-        color: #F6EFDE; }
+        color: #03729E; }
 
 footer {
   width: 100%;
@@ -245,6 +319,41 @@ footer {
 /*-------FOOTER------*/
 .redes-sociales {
   height: 70%; }
+
+/*----------CONTACTO------*/
+.contacto-main {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contacto-main form {
+  width: 70%;
+  height: 50%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left; }
+
+.contacto-main form div {
+  padding-bottom: 15px; }
+
+.contacto-main form div label {
+  text-align: center;
+  color: #03729E; }
+
+.contacto-main .titulo-contacto {
+  padding: 10px 0px 10px 0px;
+  text-align: left;
+  color: #03729E; }
+
+.contacto-main .botones-contacto {
+  color: #03729E; }
 
 @media screen and (max-width: 768px) {
   header h1 {
@@ -358,6 +467,23 @@ footer {
     grid-column: span 1;
     grid-row: span 1; } }
 
+/*----------NOSOTROS-----*/
+.nosotros-main {
+  width: 100%;
+  height: 70%; }
+
+.carousel-inner {
+  height: 100%; }
+
+.carousel-item img {
+  height: 15%; }
+
+.carousel-item h3 {
+  color: #F6EFDE; }
+
+.carousel-item div p {
+  color: #F6EFDE; }
+
 /*-----Footer-------*/
 .logo95footer {
   height: 80%; }
@@ -372,14 +498,22 @@ footer {
     display: none; }
   .navbar {
     padding-left: 30px; }
+  .dropdown-menu {
+    min-width: 115px; }
   .logo95 {
     height: 150px; }
   /*------Nosotros---------*/
   .nosotros-main {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    width: 100%;
+    height: 70%; }
+  .carousel-inner {
+    height: 100%; }
+  .carousel-item img {
+    height: 15%; }
+  .carousel-item h3 {
+    color: #F6EFDE; }
+  .carousel-item div p {
+    color: #F6EFDE; }
   /*---------Deportes-------*/
   .deportes-main {
     width: 100%;
@@ -420,3 +554,78 @@ footer {
     height: 60%; }
   .redes-sociales img {
     height: 80%; } }
+
+@media screen and (max-width: 350px) {
+  header {
+    flex-direction: row; }
+  h1 {
+    display: none; }
+  .dropdown-menu {
+    min-width: 115px; }
+  .productos div h3 {
+    font-size: small; }
+  .navbar {
+    padding: 0px; }
+  .container-fluid {
+    padding: 0px; }
+  .logo95 {
+    height: 100px; }
+  .asociate div img {
+    width: 100%;
+    height: 100%; }
+  /*------Nosotros---------*/
+  .nosotros-main {
+    width: 100%;
+    height: 70%; }
+  .carousel-inner {
+    height: 100%; }
+  .carousel-item img {
+    height: 15%; }
+  .carousel-item h3 {
+    color: #F6EFDE; }
+  .carousel-item div p {
+    color: #F6EFDE; }
+  /*---------Deportes-------*/
+  .deportes-main {
+    width: 100%;
+    height: 1300px; }
+  .deportes-main section {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  .nombre-deportes {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px; }
+  .deportes-main div h4 {
+    text-align: center; }
+  .img-voley {
+    width: 75%;
+    height: 85%;
+    padding: 0;
+    margin: 0; }
+  .img-gimnasia {
+    width: 75%;
+    height: 85%;
+    padding: 0;
+    margin: 0; }
+  .img-futsal {
+    width: 75%;
+    height: 85%;
+    padding: 0;
+    margin: 0; }
+  /*-------FOOTER------*/
+  .logo95footer {
+    height: 60%; }
+  .redes-sociales img {
+    height: 70%; } }
+
+@media screen and (max-width: 315px) {
+  .dropdown-menu {
+    min-width: 115px; } }
