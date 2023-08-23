@@ -147,53 +147,41 @@ footer{
         }
     }
 
-
-
-
-}
-
 /*-------FOOTER------*/
 
 
 
 /*----------CONTACTO------*/
-.contacto-main{
+
+/*--------NOSOTROS------*/
+.nosotros-main{
     width: 100%;
     height: 100%;
-    background-image: url(../img/contacto.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.contacto-main form{
-    width: 70%;
-    height: 50%;
-    padding-top: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    
-}
-.contacto-main form div{
-    padding-bottom: 15px;
-}
-.contacto-main form div label{
-    text-align: center;
-    color: #03729E;
-}
+    .nosotros-relleno{
+        display: ;
+    }
+    }
 
-.contacto-main .titulo-contacto{
-    padding: 10px 0px 10px 0px;
-    text-align: left;
-    color: #03729E;
-}
+    .carousel-inner{
+        padding: 0px;
+        height: 100%;
 
-.contacto-main .botones-contacto{
-    color: #03729E;
+        .carousel-item{
+            img{
+                height: 100%;
+            }
+
+            h3{
+                color: #F6EFDE;
+            }
+            
+            p{
+                color: #F6EFDE;
+            }
+        }
+
+}
 }
 
 
@@ -289,8 +277,8 @@ height: 500px;
     width: 100%;
     height: 100%;
 
-    p{
-        
+    .nosotros-relleno{
+        display: none;
     }
     }
 
