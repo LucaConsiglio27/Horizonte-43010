@@ -242,3 +242,55 @@ main{
                 
     }
 
+.servicios-main{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 50px;
+    padding-top: 50px;
+    text-align: center;  
+
+
+        .img-1{
+            grid-row: span 2;
+            }
+
+        .img-3{
+            grid-row: span 2;
+            }
+
+        .img-4{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            }
+
+        .img-5{
+            grid-column: span 3;
+            }
+
+
+        .grid-item{
+            box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+            -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+            -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+            position: relative;
+            
+            img{
+                width: 100%;
+                height: 100%;}
+
+            h3{
+                color: #03729E;
+                font-size: large;
+                position: absolute;
+                bottom: 0;
+                background-color: #f6efdec4;
+                width: 100%;
+                text-align: center; 
+            }
+            }
+        }
