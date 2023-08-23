@@ -439,39 +439,59 @@ header{
 @media screen and (max-width:  350px){
     header{
         flex-direction: row;
-    }
-    
-        h1{
-            display: none;
-        }
-    
-        .dropdown-menu{
-            min-width: 115px;
-        }
 
-        .productos div h3{
-            font-size: small;
-        }
-
-
-        .navbar{
-            padding: 0px;
-        }
-        
-        .container-fluid{
-            padding: 0px;
-        }
-    
         .logo95{
             height: 100px;
         }
-    
-    
-        .asociate div img{
-            width: 100%;
-            height: 100%;
+
+        h1{
+            display: none;
         }
+
         
+        .navbar{
+            padding: 0px;
+                .conteiner-fluid{
+                    padding: 0px;
+                    .navbar-nav{
+                        .dropdown{
+                            .dropdown-menu{
+                                min-width: 115px;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+    
+
+main{
+
+    .productos{
+        div{
+
+            img{
+
+            }
+            h3{
+                font-size: x-small;
+            }
+
+            .boton{
+                font-size: small;
+            }
+        }
+    }
+}
+
+
+        
+        
+        
+    
+        
+    
+
     
     /*------Nosotros---------*/
     
@@ -555,7 +575,7 @@ header{
         .redes-sociales img{
             height: 70%;
         }
-    }
+    
 
     @media screen and (max-width: 315px){
         
@@ -563,3 +583,4 @@ header{
             min-width: 115px;
         }
     }
+}

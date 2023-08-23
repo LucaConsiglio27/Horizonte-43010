@@ -120,7 +120,7 @@ main .asociate {
 
 main .asociate div {
   background-color: #F6EFDE;
-  width: 50%;
+  width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -134,7 +134,7 @@ main .asociate div {
     height: 100%; }
   main .asociate div p {
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: larger; }
   main .asociate div .boton {
     font-size: medium;
@@ -558,21 +558,20 @@ footer {
 @media screen and (max-width: 350px) {
   header {
     flex-direction: row; }
-  h1 {
-    display: none; }
-  .dropdown-menu {
-    min-width: 115px; }
-  .productos div h3 {
+    header .logo95 {
+      height: 100px; }
+    header h1 {
+      display: none; }
+    header .navbar {
+      padding: 0px; }
+      header .navbar .conteiner-fluid {
+        padding: 0px; }
+        header .navbar .conteiner-fluid .navbar-nav .dropdown .dropdown-menu {
+          min-width: 115px; }
+  main .productos div h3 {
+    font-size: x-small; }
+  main .productos div .boton {
     font-size: small; }
-  .navbar {
-    padding: 0px; }
-  .container-fluid {
-    padding: 0px; }
-  .logo95 {
-    height: 100px; }
-  .asociate div img {
-    width: 100%;
-    height: 100%; }
   /*------Nosotros---------*/
   .nosotros-main {
     width: 100%;
@@ -626,6 +625,6 @@ footer {
   .redes-sociales img {
     height: 70%; } }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 350px) and (max-width: 315px) {
   .dropdown-menu {
     min-width: 115px; } }
