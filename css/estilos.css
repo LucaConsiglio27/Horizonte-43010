@@ -472,6 +472,21 @@ footer {
     grid-template-columns: 2fr;
     grid-auto-rows: 190px; } }
 
+/*--------NOSOTROS-------*/
+.nosotros-main {
+  width: 100%;
+  height: 100%; }
+
+.carousel-inner {
+  padding: 0px;
+  height: 100%; }
+  .carousel-inner .carousel-item img {
+    height: 100%; }
+  .carousel-inner .carousel-item h3 {
+    color: #F6EFDE; }
+  .carousel-inner .carousel-item p {
+    color: #F6EFDE; }
+
 @media screen and (max-width: 576px) {
   header {
     flex-direction: row; }
@@ -523,19 +538,20 @@ footer {
 /*----------NOSOTROS-----*/
 .nosotros-main {
   width: 100%;
-  height: 70%; }
-
-.carousel-inner {
   height: 100%; }
-
-.carousel-item img {
-  height: 15%; }
-
-.carousel-item h3 {
-  color: #F6EFDE; }
-
-.carousel-item div p {
-  color: #F6EFDE; }
+  .nosotros-main p {
+    color: #03729E;
+    text-align: center;
+    padding: 50px 0px 30px 0px; }
+  .nosotros-main .carousel-inner {
+    padding: 50px 0px 50px 0px;
+    height: 100%; }
+    .nosotros-main .carousel-inner .carousel-item img {
+      height: 100%; }
+    .nosotros-main .carousel-inner .carousel-item h3 {
+      color: #F6EFDE; }
+    .nosotros-main .carousel-inner .carousel-item p {
+      color: #F6EFDE; }
 
 /*-----Footer-------*/
 footer .logo95footer {
@@ -558,15 +574,20 @@ footer .redes-sociales {
   /*------Nosotros---------*/
   .nosotros-main {
     width: 100%;
-    height: 70%; }
-  .carousel-inner {
-    height: 100%; }
-  .carousel-item img {
-    height: 15%; }
-  .carousel-item h3 {
-    color: #F6EFDE; }
-  .carousel-item div p {
-    color: #F6EFDE; }
+    height: 600px; }
+    .nosotros-main p {
+      color: #03729E;
+      text-align: center;
+      padding-top: 30px; }
+    .nosotros-main .carousel-inner {
+      padding: 50px 0px 0px 0px;
+      height: 100%; }
+      .nosotros-main .carousel-inner .carousel-item img {
+        height: 100%; }
+      .nosotros-main .carousel-inner .carousel-item h3 {
+        color: #F6EFDE; }
+      .nosotros-main .carousel-inner .carousel-item p {
+        color: #F6EFDE; }
   /*---------Deportes-------*/
   .deportes-main {
     width: 100%;
@@ -603,46 +624,53 @@ footer .redes-sociales {
       display: none; }
     header .navbar .navbar-nav .dropdown-menu {
       width: 50%; }
-  main {
-    /*------Nosotros---------*/
-    /*---------Deportes-------*/
-    /*-------FOOTER------*/ }
-    main .productos div img h3 {
-      font-size: x-small; }
-    main .productos div img .boton {
-      font-size: small; }
-    main .nosotros-main {
-      width: 100%;
-      height: 70%; }
-    main .carousel-inner {
+  main .productos div h3 {
+    font-size: x-small; }
+  main .productos div .boton {
+    font-size: small; }
+  /*------Nosotros---------*/
+  .nosotros-main {
+    width: 100%;
+    height: 600px; }
+    .nosotros-main p {
+      color: #03729E;
+      text-align: center;
+      padding-top: 50px; }
+    .nosotros-main .carousel-inner {
+      padding: 50px 0px 0px 0px;
       height: 100%; }
-    main .carousel-item img {
-      height: 15%; }
-    main .carousel-item h3 {
-      color: #F6EFDE; }
-    main .carousel-item div p {
-      color: #F6EFDE; }
-    main .deportes-main {
+      .nosotros-main .carousel-inner .carousel-item img {
+        height: 100%; }
+      .nosotros-main .carousel-inner .carousel-item h3 {
+        color: #F6EFDE; }
+      .nosotros-main .carousel-inner .carousel-item p {
+        color: #F6EFDE; }
+  /*---------Deportes-------*/
+  .deportes-main {
+    width: 100%;
+    height: 100%; }
+    .deportes-main section {
       width: 100%;
-      height: 100%; }
-      main .deportes-main section {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 25px;
-        padding: 30px 0px 30px 0px; }
-        main .deportes-main section .nombre-deportes {
-          width: 300px; }
-          main .deportes-main section .nombre-deportes .img-voley {
-            width: 75%; }
-          main .deportes-main section .nombre-deportes .img-gimnasia {
-            width: 75%; }
-          main .deportes-main section .nombre-deportes .img-futsal {
-            width: 75%; }
-    main .logo95footer {
-      height: 60%; }
-    main .redes-sociales img {
-      height: 70%; } }
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 25px;
+      padding: 30px 0px 30px 0px; }
+      .deportes-main section .nombre-deportes {
+        width: 300px; }
+        .deportes-main section .nombre-deportes .img-voley {
+          width: 90%;
+          height: 70%; }
+        .deportes-main section .nombre-deportes .img-gimnasia {
+          width: 90%;
+          height: 70%; }
+        .deportes-main section .nombre-deportes .img-futsal {
+          width: 90%;
+          height: 70%; }
+  /*-------FOOTER------*/
+  .logo95footer {
+    height: 60%; }
+  .redes-sociales img {
+    height: 70%; } }

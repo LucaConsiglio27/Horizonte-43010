@@ -281,9 +281,37 @@ height: 500px;
     grid-template-columns: 2fr;
     grid-auto-rows: 190px;
 }
-
-
 }
+
+/*--------NOSOTROS-------*/
+
+.nosotros-main{
+    width: 100%;
+    height: 100%;
+
+    p{
+        
+    }
+    }
+
+    .carousel-inner{
+        padding: 0px;
+        height: 100%;
+
+        .carousel-item{
+            img{
+                height: 100%;
+            }
+
+            h3{
+                color: #F6EFDE;
+            }
+            
+            p{
+                color: #F6EFDE;
+            }
+        }
+    }
 
 
 
@@ -381,23 +409,34 @@ height: 500px;
 
 .nosotros-main{
     width: 100%;
-    height: 70%;
-}
-
-.carousel-inner{
     height: 100%;
+    
+            p{
+        color: #03729E;
+        text-align: center;
+        padding: 50px 0px 30px 0px;
+    }
+
+    .carousel-inner{
+        padding: 50px 0px 50px 0px;
+        height: 100%;
+
+        .carousel-item{
+            img{
+                height: 100%;
+            }
+
+            h3{
+                color: #F6EFDE;
+            }
+            
+            p{
+                color: #F6EFDE;
+            }
+        }
+    }
 }
 
-.carousel-item img{
-    height: 15%;
-}
-
-.carousel-item h3{
-        color: #F6EFDE;
-}
-.carousel-item div p{
-        color: #F6EFDE;
-}
 
 /*-----Footer-------*/
 
@@ -446,23 +485,34 @@ header{
 
 .nosotros-main{
     width: 100%;
-    height: 70%;
+    height: 600px;
+        
+        p{    
+        color: #03729E;
+        text-align: center;
+        padding-top: 30px;
+        }
+
+    .carousel-inner{
+        padding: 50px 0px 0px 0px;
+        height: 100%;
+
+        .carousel-item{
+            img{
+                height: 100%;
+            }
+
+            h3{
+                color: #F6EFDE;
+            }
+            
+            p{
+                color: #F6EFDE;
+            }
+        }
+    }
 }
 
-.carousel-inner{
-    height: 100%;
-}
-
-.carousel-item img{
-    height: 15%;
-}
-
-.carousel-item h3{
-        color: #F6EFDE;
-}
-.carousel-item div p{
-        color: #F6EFDE;
-}
 
 /*---------Deportes-------*/
 .deportes-main{
@@ -538,7 +588,7 @@ main{
     .productos{
         div{
 
-            img{
+            
                 
             h3{
                 font-size: x-small;
@@ -558,22 +608,32 @@ main{
     
     .nosotros-main{
         width: 100%;
-        height: 70%;
-    }
+        height: 600px;
+        p{
+            
+            color: #03729E;
+            text-align: center;
+            padding-top: 50px;
+        }
     
-    .carousel-inner{
-        height: 100%;
-    }
+        .carousel-inner{
+            padding: 50px 0px 0px 0px;
+            height: 100%;
     
-    .carousel-item img{
-        height: 15%;
-    }
+            .carousel-item{
+                img{
+                    height: 100%;
+                }
     
-    .carousel-item h3{
-            color: #F6EFDE;
-    }
-    .carousel-item div p{
-            color: #F6EFDE;
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
+            }
+        }
     }
     
     
@@ -596,15 +656,18 @@ main{
                 width: 300px;
                 
                 .img-voley{
-                    width: 75%;
+                    width: 90%;
+                    height: 70%;
                 }
     
                 .img-gimnasia{
-                    width: 75%;
+                    width: 90%;
+                    height: 70%;
                 }
     
                 .img-futsal{
-                    width: 75%;
+                    width: 90%;
+                    height: 70%;
                 }
             }
             
@@ -621,5 +684,4 @@ main{
         .redes-sociales img{
             height: 70%;
         }
-}
 }
