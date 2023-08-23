@@ -471,8 +471,7 @@ main{
         div{
 
             img{
-
-            }
+                
             h3{
                 font-size: x-small;
             }
@@ -485,12 +484,6 @@ main{
 }
 
 
-        
-        
-        
-    
-        
-    
 
     
     /*------Nosotros---------*/
@@ -575,12 +568,11 @@ main{
         .redes-sociales img{
             height: 70%;
         }
-    
+}
+}
 
-    @media screen and (max-width: 315px){
-        
-        .dropdown-menu{
-            min-width: 115px;
-        }
-    }
+@media screen and (max-width: 315px) {
+    .dropdown-menu{
+        min-width: 115px;}
+    
 }
