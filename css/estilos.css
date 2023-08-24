@@ -214,17 +214,19 @@ main .productos {
       padding: 0;
       margin: 0; }
 
-.nosotros-main .carousel-inner {
-  height: 700px; }
-
-.nosotros-main .carousel-item img {
-  height: 700px; }
-
-.nosotros-main .carousel-item div h3 {
-  color: #F6EFDE; }
-
-.nosotros-main .carousel-item div p {
-  color: #F6EFDE; }
+.nosotros-main {
+  width: 100%;
+  height: 100%;
+  padding: 0px; }
+  .nosotros-main .nosotros-relleno {
+    display: none; }
+  .nosotros-main .carousel-inner {
+    padding: 0px;
+    height: 100%; }
+    .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
+      color: #F6EFDE; }
+    .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
+      color: #F6EFDE; }
 
 .contacto-main {
   width: 100%;
@@ -289,33 +291,33 @@ main .productos {
       width: 100%;
       text-align: center; }
 
-footer {
+#contacto {
   width: 100%;
   height: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #03729E; }
-  footer iframe {
+  #contacto iframe {
     width: 30%;
     height: 150px; }
-  footer .logo95 {
+  #contacto .logo95footer {
     height: 190px; }
-  footer .redes-sociales {
+  #contacto .redes-sociales {
     width: 15%;
     height: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: #F6EFDE; }
-  footer .redes-sociales a {
+  #contacto .redes-sociales a {
     width: 100%;
     height: 40%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: #F6EFDE; }
-  footer .redes-sociales img {
+  #contacto .redes-sociales img {
     height: 100%; }
 
 @media screen and (max-width: 1348px) {
@@ -329,10 +331,24 @@ footer {
       padding-left: 30px; }
       header .navbar .navbar-nav .dropdown-menu {
         width: 50%; }
+  /*--------NOSOTROS-------*/
+  .nosotros-main {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px 50px 0px; }
+    .nosotros-main .nosotros-relleno {
+      display: none; }
+    .nosotros-main .carousel-inner {
+      padding: 0px;
+      height: 100%; }
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
+        color: #F6EFDE; }
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
+        color: #F6EFDE; }
   /*---------FOOTER-----------*/
-  footer .logo95footer {
+  #contacto .logo95footer {
     height: 80%; }
-  footer .redes-sociales img {
+  #contacto .redes-sociales img {
     height: 60%; } }
 
 @media screen and (max-width: 992px) {
@@ -356,7 +372,7 @@ footer {
       height: 300px; }
       main .productos div img {
         height: 60%; }
-  footer .redes-sociales {
+  #contacto .redes-sociales {
     height: 70%; }
   /*-------DEPORTES------*/
   .deportes-main {
@@ -393,7 +409,8 @@ footer {
   /*--------NOSOTROS------*/
   .nosotros-main {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding: 50px 0px 50px 0px; }
     .nosotros-main .nosotros-relleno {
       display: none; }
     .nosotros-main .carousel-inner {
@@ -453,7 +470,8 @@ footer {
   /*--------NOSOTROS-------*/
   .nosotros-main {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding: 50px 0px 50px 0px; }
     .nosotros-main .nosotros-relleno {
       display: none; }
   .carousel-inner {
@@ -517,7 +535,8 @@ footer {
   .nosotros-main {
     width: 100%;
     height: 100%; }
-    .nosotros-main p {
+    .nosotros-main .nosotros-relleno {
+      display: block;
       color: #03729E;
       text-align: center;
       padding: 50px 0px 30px 0px; }
@@ -529,9 +548,9 @@ footer {
       .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
         color: #F6EFDE; }
   /*-----Footer-------*/
-  footer .logo95footer {
+  #contacto .logo95footer {
     height: 80%; }
-  footer .redes-sociales {
+  #contacto .redes-sociales {
     height: 70%; } }
 
 @media screen and (max-width: 450px) {
@@ -549,7 +568,7 @@ footer {
   .nosotros-main {
     width: 100%;
     height: 600px; }
-    .nosotros-main p {
+    .nosotros-main .nosotros-relleno {
       color: #03729E;
       text-align: center;
       padding-top: 30px; }
@@ -582,9 +601,9 @@ footer {
       .deportes-main .nombre-deportes .img-futsal {
         width: 95%; }
   /*-------FOOTER------*/
-  .logo95footer {
+  #contacto .logo95footer {
     height: 60%; }
-  .redes-sociales img {
+  #contacto .redes-sociales img {
     height: 80%; } }
 
 @media screen and (max-width: 350px) {
@@ -640,7 +659,7 @@ footer {
           width: 90%;
           height: 70%; }
   /*-------FOOTER------*/
-  .logo95footer {
+  #contacto .logo95footer {
     height: 60%; }
-  .redes-sociales img {
+  #contacto .redes-sociales img {
     height: 70%; } }

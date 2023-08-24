@@ -181,26 +181,32 @@ main{
 
 // NOSOTROS
 
-    .nosotros-main{
+.nosotros-main{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+    .nosotros-relleno{
+        display: none;
+    }
+
+    .carousel-inner{
+        padding: 0px;
+        height: 100%;
+
+        .carousel-item{
             
-                .carousel-inner{
-                                height: 700px;
-                                }
-
-                .carousel-item img{
-                                    height: 700px;
-                                }
-
-                .carousel-item div{
-                                
-                                h3{
-                                    color: $color-terciario;
-                                }
-
-                                p{
-                                    color: $color-terciario;
-                                }
-                                }               
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
+            }
+        }
+                }  
     }
 
 

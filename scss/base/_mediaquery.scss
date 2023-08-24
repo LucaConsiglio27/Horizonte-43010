@@ -20,12 +20,40 @@
                 }
             }
         }
+    }
+/*--------NOSOTROS-------*/
+.nosotros-main{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px 50px 0px;
+
+    .nosotros-relleno{
+        display: none;
+    }
+
+    .carousel-inner{
+        padding: 0px;
+        height: 100%;
+
+        .carousel-item{
+            
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
+            }
+        }
+                }  
+    }
 
 
-}
 /*---------FOOTER-----------*/
 
-footer{
+#contacto{
     
     .logo95footer{
         height: 80%;
@@ -89,7 +117,7 @@ main{
         }
 }
 
-footer{
+#contacto{
 
     .redes-sociales{
         height: 70%;
@@ -157,6 +185,7 @@ footer{
 .nosotros-main{
     width: 100%;
     height: 100%;
+    padding: 50px 0px 50px 0px;
 
     .nosotros-relleno{
         display: none;
@@ -274,6 +303,7 @@ height: 500px;
 .nosotros-main{
     width: 100%;
     height: 100%;
+    padding: 50px 0px 50px 0px;
 
     .nosotros-relleno{
         display: none;
@@ -400,26 +430,27 @@ height: 500px;
     width: 100%;
     height: 100%;
     
-            p{
-        color: #03729E;
-        text-align: center;
-        padding: 50px 0px 30px 0px;
+            .nosotros-relleno{
+                display: block;
+                color: #03729E;
+                text-align: center;
+                padding: 50px 0px 30px 0px;
     }
 
-    .carousel-inner{
-        padding: 50px 0px 50px 0px;
-        height: 100%;
+            .carousel-inner{
+                    padding: 50px 0px 50px 0px;
+                    height: 100%;
 
-        .carousel-item{
+            .carousel-item{
             
-            .carousel-caption{
-                h3{
-                    color: #F6EFDE;
-                }
+                .carousel-caption{
+                        h3{
+                            color: #F6EFDE;
+                        }
                 
-                p{
-                    color: #F6EFDE;
-                }
+                        p{
+                            color: #F6EFDE;
+                        }
             }
         }
     }
@@ -428,7 +459,7 @@ height: 500px;
 
 /*-----Footer-------*/
 
-footer{
+#contacto{
     
     .logo95footer{
         height: 80%;
@@ -475,7 +506,7 @@ header{
     width: 100%;
     height: 600px;
         
-        p{    
+        .nosotros-relleno{    
         color: #03729E;
         text-align: center;
         padding-top: 30px;
@@ -535,14 +566,17 @@ header{
 
 /*-------FOOTER------*/
 
+    #contacto{
 
-    .logo95footer{
-        height: 60%;
+        .logo95footer{
+            height: 60%;
+        }
+    
+        .redes-sociales img{
+            height: 80%;
+        }
     }
-
-    .redes-sociales img{
-        height: 80%;
-    }
+    
 }
 
 
@@ -663,7 +697,8 @@ main{
     
     /*-------FOOTER------*/
     
-    
+    #contacto{
+
         .logo95footer{
             height: 60%;
         }
@@ -671,4 +706,6 @@ main{
         .redes-sociales img{
             height: 70%;
         }
+    }
+        
 }
