@@ -37,14 +37,12 @@ header {
     color: #B6924C !important;
     display: block;
     padding: 0.5rem 1rem;
-    color: #0d6efd;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   header nav .nav-contacto {
     color: #B6924C !important;
     display: block;
     padding: 0.5rem 1rem;
-    color: #0d6efd;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   header nav .nav-info {
@@ -54,7 +52,6 @@ header {
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
   header nav .nav-deportes {
-    color: blueviolet;
     display: block;
     width: 100%;
     padding: 0.25rem 1rem;
@@ -82,7 +79,7 @@ header {
 main .hero {
   width: 100%;
   height: calc(100vh - 130px);
-  background-image: url(../img/portada.png);
+  background-image: url(../img/portada.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +122,7 @@ main .asociate div {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #006E9E;
+  color: #03729E;
   box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
   -webkit-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
   -moz-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75); }
@@ -290,7 +287,7 @@ main .productos {
       font-size: large;
       position: absolute;
       bottom: 0;
-      background-color: #f6efdec4;
+      background-color: #F6EFDE;
       width: 100%;
       text-align: center; }
 

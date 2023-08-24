@@ -4,7 +4,7 @@ main{
         .hero{
             width: 100%;
             height: calc(100vh - 130px);
-            background-image: url(../img/portada.png);
+            background-image: url(../img/portada.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -16,7 +16,7 @@ main{
             text-align: center;
             font-weight:bolder;
             font-size:larger;
-            color: #F6EFDE;
+            color: $color-terciario;
             box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.75);
             -webkit-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.75);
             -moz-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.75);
@@ -52,7 +52,7 @@ main{
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    color: #006E9E;
+                    color: $color-primario;
                     box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
                     -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
                     -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
@@ -210,11 +210,11 @@ main{
             
             .carousel-caption{
                 h3{
-                    color: #F6EFDE;
+                    color: $color-terciario;
                 }
                 
                 p{
-                    color: #F6EFDE;
+                    color: $color-terciario;
                 }
             }
         }
@@ -302,11 +302,11 @@ main{
                 height: 100%;}
 
             h3{
-                color: #03729E;
+                color: $color-primario;
                 font-size: large;
                 position: absolute;
                 bottom: 0;
-                background-color: #f6efdec4;
+                background-color: $color-terciario;
                 width: 100%;
                 text-align: center; 
             }

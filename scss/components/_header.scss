@@ -25,12 +25,12 @@ header{
 
     nav{
         .bg-navbar{
-            background-color: #03729E;
+            background-color: $color-primario;
             
         }
         
         .nav-index{
-            color: #B6924C; 
+            color: $color-secundario; 
             padding-top: 0.3125rem;
             padding-bottom: 0.3125rem;
             margin-right: 1rem;
@@ -40,19 +40,17 @@ header{
         }
         
         .nav-nosotros{
-            color: #B6924C !important;
+            color: $color-secundario !important;
             display: block;
             padding: 0.5rem 1rem;
-            color: #0d6efd;
             text-decoration: none;
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
         }
         
         .nav-contacto{
-            color: #B6924C !important;
+            color: $color-secundario !important;
             display: block;
             padding: 0.5rem 1rem;
-            color: #0d6efd;
             text-decoration: none;
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
         }
@@ -60,19 +58,18 @@ header{
         .nav-info{
             display: block;
             padding: 0.5rem 1rem;
-            color: #B6924C !important;
+            color: $color-secundario !important;
             text-decoration: none;
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
         }
         
         .nav-deportes{
-            color: blueviolet;
             display: block;
             width: 100%;
             padding: 0.25rem 1rem;
             clear: both;
             font-weight: 400;
-            color: #B6924C !important;
+            color: $color-secundario !important;
             text-align: inherit;
             text-decoration: none;
             white-space: nowrap;
@@ -86,7 +83,7 @@ header{
             padding: 0.25rem 1rem;
             clear: both;
             font-weight: 400;
-            color: #B6924C !important;
+            color: $color-secundario !important;
             text-align: inherit;
             text-decoration: none;
             white-space: nowrap;
