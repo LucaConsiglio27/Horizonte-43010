@@ -14,24 +14,8 @@ header{
         padding-left: 10px;
         font-weight:lighter;
         text-align: left;
-        animation-name: slidein;
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-direction: initial;
-        animation-delay: 1s;
     }
 
-    @keyframes slidein {
-        from{
-            margin-right: 100%;
-            width: 300%;
-        }
-
-        to{
-            margin: 0;
-            width: 100%;
-        }
-    }
 
     
 
