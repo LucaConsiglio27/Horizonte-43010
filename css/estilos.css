@@ -399,11 +399,9 @@ footer {
     .nosotros-main .carousel-inner {
       padding: 0px;
       height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item img {
-        height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item h3 {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
         color: #F6EFDE; }
-      .nosotros-main .carousel-inner .carousel-item p {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
         color: #F6EFDE; } }
 
 @media screen and (max-width: 768px) {
@@ -451,24 +449,22 @@ footer {
   /*---------SERVICIOS-------*/
   .servicios-main {
     grid-template-columns: 2fr;
-    grid-auto-rows: 190px; } }
-
-/*--------NOSOTROS-------*/
-.nosotros-main {
-  width: 100%;
-  height: 100%; }
-  .nosotros-main .nosotros-relleno {
-    display: none; }
-
-.carousel-inner {
-  padding: 0px;
-  height: 100%; }
-  .carousel-inner .carousel-item img {
+    grid-auto-rows: 190px; }
+  /*--------NOSOTROS-------*/
+  .nosotros-main {
+    width: 100%;
     height: 100%; }
-  .carousel-inner .carousel-item h3 {
-    color: #F6EFDE; }
-  .carousel-inner .carousel-item p {
-    color: #F6EFDE; }
+    .nosotros-main .nosotros-relleno {
+      display: none; }
+  .carousel-inner {
+    padding: 0px;
+    height: 100%; }
+    .carousel-inner .carousel-item img {
+      height: 100%; }
+    .carousel-inner .carousel-item .carousel-caption h3 {
+      color: #F6EFDE; }
+    .carousel-inner .carousel-item .carousel-caption p {
+      color: #F6EFDE; } }
 
 @media screen and (max-width: 576px) {
   header {
@@ -516,32 +512,27 @@ footer {
     grid-template-columns: 1fr; }
     .servicios-main .grid-item {
       grid-column: span 1;
-      grid-row: span 1; } }
-
-/*----------NOSOTROS-----*/
-.nosotros-main {
-  width: 100%;
-  height: 100%; }
-  .nosotros-main p {
-    color: #03729E;
-    text-align: center;
-    padding: 50px 0px 30px 0px; }
-  .nosotros-main .carousel-inner {
-    padding: 50px 0px 50px 0px;
+      grid-row: span 1; }
+  /*----------NOSOTROS-----*/
+  .nosotros-main {
+    width: 100%;
     height: 100%; }
-    .nosotros-main .carousel-inner .carousel-item img {
+    .nosotros-main p {
+      color: #03729E;
+      text-align: center;
+      padding: 50px 0px 30px 0px; }
+    .nosotros-main .carousel-inner {
+      padding: 50px 0px 50px 0px;
       height: 100%; }
-    .nosotros-main .carousel-inner .carousel-item h3 {
-      color: #F6EFDE; }
-    .nosotros-main .carousel-inner .carousel-item p {
-      color: #F6EFDE; }
-
-/*-----Footer-------*/
-footer .logo95footer {
-  height: 80%; }
-
-footer .redes-sociales {
-  height: 70%; }
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
+        color: #F6EFDE; }
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
+        color: #F6EFDE; }
+  /*-----Footer-------*/
+  footer .logo95footer {
+    height: 80%; }
+  footer .redes-sociales {
+    height: 70%; } }
 
 @media screen and (max-width: 450px) {
   header {
@@ -565,11 +556,9 @@ footer .redes-sociales {
     .nosotros-main .carousel-inner {
       padding: 50px 0px 0px 0px;
       height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item img {
-        height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item h3 {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
         color: #F6EFDE; }
-      .nosotros-main .carousel-inner .carousel-item p {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
         color: #F6EFDE; }
   /*---------Deportes-------*/
   .deportes-main {
@@ -615,18 +604,16 @@ footer .redes-sociales {
   .nosotros-main {
     width: 100%;
     height: 600px; }
-    .nosotros-main p {
+    .nosotros-main .nosotros-relleno {
       color: #03729E;
       text-align: center;
       padding-top: 50px; }
     .nosotros-main .carousel-inner {
       padding: 50px 0px 0px 0px;
       height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item img {
-        height: 100%; }
-      .nosotros-main .carousel-inner .carousel-item h3 {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption h3 {
         color: #F6EFDE; }
-      .nosotros-main .carousel-inner .carousel-item p {
+      .nosotros-main .carousel-inner .carousel-item .carousel-caption p {
         color: #F6EFDE; }
   /*---------Deportes-------*/
   .deportes-main {

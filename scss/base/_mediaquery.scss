@@ -167,16 +167,15 @@ footer{
         height: 100%;
 
         .carousel-item{
-            img{
-                height: 100%;
-                }
-
-            h3{
-                color: #F6EFDE;
-                }
             
-            p{
-                color: #F6EFDE;
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
             }
         }
                 }  
@@ -268,7 +267,7 @@ height: 500px;
     grid-template-columns: 2fr;
     grid-auto-rows: 190px;
 }
-}
+
 
 /*--------NOSOTROS-------*/
 
@@ -290,16 +289,19 @@ height: 500px;
                 height: 100%;
             }
 
-            h3{
-                color: #F6EFDE;
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
             }
             
-            p{
-                color: #F6EFDE;
-            }
         }
     }
-
+}
 
 
 
@@ -391,7 +393,7 @@ height: 500px;
             grid-row: span 1;
         }
     }
-}
+
 /*----------NOSOTROS-----*/
 
 .nosotros-main{
@@ -409,16 +411,15 @@ height: 500px;
         height: 100%;
 
         .carousel-item{
-            img{
-                height: 100%;
-            }
-
-            h3{
-                color: #F6EFDE;
-            }
             
-            p{
-                color: #F6EFDE;
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
             }
         }
     }
@@ -437,7 +438,7 @@ footer{
         height: 70%;
     }
 }
-
+}
 
 
 @media screen and (max-width:  450px){
@@ -485,16 +486,15 @@ header{
         height: 100%;
 
         .carousel-item{
-            img{
-                height: 100%;
-            }
-
-            h3{
-                color: #F6EFDE;
-            }
             
-            p{
-                color: #F6EFDE;
+            .carousel-caption{
+                h3{
+                    color: #F6EFDE;
+                }
+                
+                p{
+                    color: #F6EFDE;
+                }
             }
         }
     }
@@ -596,7 +596,8 @@ main{
     .nosotros-main{
         width: 100%;
         height: 600px;
-        p{
+        
+        .nosotros-relleno{
             
             color: #03729E;
             text-align: center;
@@ -608,20 +609,19 @@ main{
             height: 100%;
     
             .carousel-item{
-                img{
-                    height: 100%;
-                }
-    
-                h3{
-                    color: #F6EFDE;
-                }
-                
-                p{
-                    color: #F6EFDE;
+            
+                .carousel-caption{
+                    h3{
+                        color: #F6EFDE;
+                    }
+                    
+                    p{
+                        color: #F6EFDE;
+                    }
                 }
             }
+            }
         }
-    }
     
     
     /*---------Deportes-------*/
