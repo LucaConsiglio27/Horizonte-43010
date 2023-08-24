@@ -218,7 +218,7 @@ main .productos {
   width: 100%;
   height: 100%;
   padding: 0px; }
-  .nosotros-main .nosotros-relleno {
+  .nosotros-main .parrafo-releno .nosotros-relleno {
     display: none; }
   .nosotros-main .carousel-inner {
     padding: 0px;
@@ -336,7 +336,7 @@ main .productos {
     width: 100%;
     height: 100%;
     padding: 50px 0px 50px 0px; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       display: none; }
     .nosotros-main .carousel-inner {
       padding: 0px;
@@ -411,7 +411,7 @@ main .productos {
     width: 100%;
     height: 100%;
     padding: 50px 0px 50px 0px; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       display: none; }
     .nosotros-main .carousel-inner {
       padding: 0px;
@@ -472,7 +472,7 @@ main .productos {
     width: 100%;
     height: 100%;
     padding: 50px 0px 50px 0px; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       display: none; }
   .carousel-inner {
     padding: 0px;
@@ -535,7 +535,7 @@ main .productos {
   .nosotros-main {
     width: 100%;
     height: 100%; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       display: block;
       color: #03729E;
       text-align: center;
@@ -568,7 +568,7 @@ main .productos {
   .nosotros-main {
     width: 100%;
     height: 600px; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       color: #03729E;
       text-align: center;
       padding-top: 30px; }
@@ -616,14 +616,14 @@ main .productos {
     header .navbar .navbar-nav .dropdown-menu {
       width: 50%; }
   main .productos div h3 {
-    font-size: x-small; }
-  main .productos div .boton {
     font-size: small; }
+  main .productos div .boton {
+    font-size: medium; }
   /*------Nosotros---------*/
   .nosotros-main {
     width: 100%;
     height: 600px; }
-    .nosotros-main .nosotros-relleno {
+    .nosotros-main .parrafo-relleno .nosotros-relleno {
       color: #03729E;
       text-align: center;
       padding-top: 50px; }

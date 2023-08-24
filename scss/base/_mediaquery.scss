@@ -27,9 +27,13 @@
     height: 100%;
     padding: 50px 0px 50px 0px;
 
-    .nosotros-relleno{
-        display: none;
+    .parrafo-relleno{
+        
+        .nosotros-relleno{
+            display: none;
+        }
     }
+    
 
     .carousel-inner{
         padding: 0px;
@@ -187,9 +191,13 @@ main{
     height: 100%;
     padding: 50px 0px 50px 0px;
 
-    .nosotros-relleno{
-        display: none;
+    .parrafo-relleno{
+        
+        .nosotros-relleno{
+            display: none;
+        }
     }
+    
 
     .carousel-inner{
         padding: 0px;
@@ -305,9 +313,13 @@ height: 500px;
     height: 100%;
     padding: 50px 0px 50px 0px;
 
-    .nosotros-relleno{
-        display: none;
+    .parrafo-relleno{
+        
+        .nosotros-relleno{
+            display: none;
+        }
     }
+    
     }
 
     .carousel-inner{
@@ -430,12 +442,16 @@ height: 500px;
     width: 100%;
     height: 100%;
     
+        .parrafo-relleno{
+            
             .nosotros-relleno{
                 display: block;
                 color: #03729E;
                 text-align: center;
                 padding: 50px 0px 30px 0px;
     }
+        }
+            
 
             .carousel-inner{
                     padding: 50px 0px 50px 0px;
@@ -505,12 +521,17 @@ header{
 .nosotros-main{
     width: 100%;
     height: 600px;
-        
-        .nosotros-relleno{    
-        color: #03729E;
-        text-align: center;
-        padding-top: 30px;
+
+
+        .parrafo-relleno{
+            
+            .nosotros-relleno{    
+                color: #03729E;
+                text-align: center;
+                padding-top: 30px;
+                }
         }
+
 
     .carousel-inner{
         padding: 50px 0px 0px 0px;
@@ -612,11 +633,11 @@ main{
             
                 
             h3{
-                font-size: x-small;
+                font-size: small;
             }
 
             .boton{
-                font-size: small;
+                font-size:medium;
             }
         }
     }
@@ -631,12 +652,16 @@ main{
         width: 100%;
         height: 600px;
         
-        .nosotros-relleno{
+        .parrafo-relleno{
             
-            color: #03729E;
-            text-align: center;
-            padding-top: 50px;
+            .nosotros-relleno{
+            
+                color: #03729E;
+                text-align: center;
+                padding-top: 50px;
+            }
         }
+
     
         .carousel-inner{
             padding: 50px 0px 0px 0px;
