@@ -577,7 +577,8 @@ main .productos {
     .nosotros-main .parrafo-relleno .nosotros-relleno {
       color: #03729E;
       text-align: center;
-      padding-top: 30px; }
+      padding-top: 30px;
+      font-size: small; }
     .nosotros-main .carousel-inner {
       padding: 50px 0px 0px 0px;
       height: 100%; }
