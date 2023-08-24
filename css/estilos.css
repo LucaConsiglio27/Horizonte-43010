@@ -20,7 +20,20 @@ header {
     font-size: 25px;
     padding-left: 10px;
     font-weight: lighter;
-    text-align: left; }
+    text-align: left;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 1s; }
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%; }
+  to {
+    margin: 0;
+    width: 100%; } }
   header .logo95 {
     height: 190px; }
   header nav .bg-navbar {
@@ -438,18 +451,18 @@ main .productos {
         width: 50%; }
   .asociate div {
     width: 90%; }
-  .productos {
+  main .productos {
     height: 500px; }
-    .productos .producto-imagenes {
+    main .productos .producto-imagenes {
       width: 25%;
       height: 300px;
       transition: none;
       box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
       -webkit-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75);
       -moz-box-shadow: 5px 4px 10px 5px rgba(153, 150, 150, 0.75); }
-      .productos .producto-imagenes img {
+      main .productos .producto-imagenes img {
         height: 60%; }
-    .productos .producto-imagenes:hover {
+    main .productos .producto-imagenes:hover {
       transform: none; }
   /*-------DEPORTES-------*/
   .deportes-main {

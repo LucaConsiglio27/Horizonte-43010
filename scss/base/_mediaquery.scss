@@ -253,7 +253,8 @@ header{
 } 
 
 
-.productos{
+main{
+    .productos{
 
         height: 500px;
         
@@ -273,6 +274,7 @@ header{
         .producto-imagenes:hover{
             transform: none;
         }
+}
 }
 
 
