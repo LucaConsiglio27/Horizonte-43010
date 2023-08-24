@@ -110,7 +110,7 @@ main{
     .productos{
         height: 500px;
 
-        div{
+        .producto-imagenes{
             width: 25%;
             height: 300px;
 
@@ -246,24 +246,39 @@ header{
 
 }
 
-.asociate div{
-    width: 90%;
-}
+.asociate{
+    div{
+        width: 90%;
+    }
+} 
 
 
 .productos{
-height: 500px;
+
+        height: 500px;
+        
+        .producto-imagenes{
+            width: 25%;
+            height: 300px;
+            transition: none;
+            box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+            -webkit-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+            -moz-box-shadow: 5px 4px 10px 5px rgba(153,150,150,0.75);
+
+            img{
+                height: 60%; 
+            }
+        }
+        
+        .producto-imagenes:hover{
+            transform: none;
+        }
 }
 
 
-.productos div{
-    width: 25%;
-    height: 300px;
-}
 
-.productos div img{
-    height: 60%; 
-}
+
+
 
 /*-------DEPORTES-------*/
 
@@ -382,12 +397,12 @@ height: 500px;
     }
 
 
-    .productos div{
+    .productos .producto-imagenes{
         width: 25%;
         height: 300px;
     }
     
-    .productos div img{
+    .productos .producto-imagenes img{
         height: 60%; 
     }
 
@@ -628,7 +643,7 @@ header{
 main{
 
     .productos{
-        div{
+        .producto-imagenes{
 
             
                 
