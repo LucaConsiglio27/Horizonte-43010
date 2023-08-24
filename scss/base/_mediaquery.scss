@@ -525,6 +525,19 @@ header{
 
 }
 
+main{
+    .hero{
+
+        h2{
+            color: $color-secundario;
+        }
+
+        p{
+            color: $color-secundario;
+        }
+    }
+}
+
 
 
 /*------Nosotros---------*/

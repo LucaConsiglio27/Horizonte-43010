@@ -566,6 +566,10 @@ main .productos {
       padding-left: 30px; }
       header .navbar .navbar-nav .dropdown-menu {
         width: 50%; }
+  main .hero h2 {
+    color: #B6924C; }
+  main .hero p {
+    color: #B6924C; }
   /*------Nosotros---------*/
   .nosotros-main {
     width: 100%;
