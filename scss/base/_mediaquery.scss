@@ -472,11 +472,11 @@ main{
             
                 .carousel-caption{
                         h3{
-                            color: $color-terciario;
+                            color: $color-secundario;
                         }
                 
                         p{
-                            color: $color-terciario;
+                            color: $color-secundario;
                         }
             }
         }
@@ -529,11 +529,11 @@ main{
     .hero{
 
         h2{
-            color: $color-secundario;
+            color: $color-terciario;
         }
 
         p{
-            color: $color-secundario;
+            color: $color-terciario;
         }
     }
 }
