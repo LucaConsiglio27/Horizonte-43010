@@ -529,11 +529,11 @@ main{
     .hero{
 
         h2{
-            color: $color-secundario;
+            color: $color-terciario;
         }
 
         p{
-            color: $color-secundario;
+            color: $color-terciario;
         }
     }
 }
@@ -617,7 +617,8 @@ main{
         }
     
         .redes-sociales img{
-            height: 80%;
+            height: 60%;
+            padding-right: 5px;
         }
     }
     
@@ -649,6 +650,17 @@ main{
     
 
 main{
+
+    .hero{
+        
+        h2{
+            color: $color-terciario;
+        }
+
+        p{
+            color: $color-terciario;
+        }
+    }
 
     .productos{
         .producto-imagenes{
@@ -750,7 +762,8 @@ main{
         }
     
         .redes-sociales img{
-            height: 70%;
+            height: 60%;
+            padding-right: 5px;
         }
     }
         

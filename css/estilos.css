@@ -117,7 +117,7 @@ main .asociate {
 
 main .asociate div {
   background-color: #F6EFDE;
-  width: 80%;
+  width: 50%;
   height: 100%;
   text-align: center;
   color: #03729E;
@@ -567,9 +567,9 @@ main .productos {
       header .navbar .navbar-nav .dropdown-menu {
         width: 50%; }
   main .hero h2 {
-    color: #B6924C; }
+    color: #F6EFDE; }
   main .hero p {
-    color: #B6924C; }
+    color: #F6EFDE; }
   /*------Nosotros---------*/
   .nosotros-main {
     width: 100%;
@@ -611,7 +611,8 @@ main .productos {
   #contacto .logo95footer {
     height: 60%; }
   #contacto .redes-sociales img {
-    height: 80%; } }
+    height: 60%;
+    padding-right: 5px; } }
 
 @media screen and (max-width: 350px) {
   header {
@@ -622,6 +623,10 @@ main .productos {
       display: none; }
     header .navbar .navbar-nav .dropdown-menu {
       width: 50%; }
+  main .hero h2 {
+    color: #F6EFDE; }
+  main .hero p {
+    color: #F6EFDE; }
   main .productos .producto-imagenes h3 {
     font-size: small; }
   main .productos .producto-imagenes .boton {
@@ -669,4 +674,5 @@ main .productos {
   #contacto .logo95footer {
     height: 60%; }
   #contacto .redes-sociales img {
-    height: 70%; } }
+    height: 60%;
+    padding-right: 5px; } }
