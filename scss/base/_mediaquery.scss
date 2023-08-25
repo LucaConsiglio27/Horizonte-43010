@@ -385,6 +385,19 @@ main{
     
     }
 
+    main{
+        .hero{
+    
+            h2{
+                color: $color-secundario;
+            }
+    
+            p{
+                color: $color-secundario;
+            }
+        }
+    }
+
     .asociate div{
         width: 90%;
     }
@@ -472,11 +485,11 @@ main{
             
                 .carousel-caption{
                         h3{
-                            color: $color-secundario;
+                            color: $color-terciario;
                         }
                 
                         p{
-                            color: $color-secundario;
+                            color: $color-terciario;
                         }
             }
         }
